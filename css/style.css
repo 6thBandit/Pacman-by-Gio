@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;  
+  }
+
+  body{
+      background: black;
+      margin: 0;
+  }
+
+  .row{
+      padding: 0;
+      font-size: 0;
+  }   
+
+  div.row div{
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+  }
+
+  .brick{
+      background-image: url('../images/wall.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 20px ;
+  }
+
+  .empty{
+
+  }
+
+  .coin{
+      background: url('../images/coin.gif');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 7px 7px ;
+  }
+  
+  .cherry{
+      background: url('../images/cherry.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  #pacman{
+      background: url('../images/pacman-right.gif');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+  }
+
+  .ghost{
+      background: url('../images/ghost.gif');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+  }
+
+  #score{
+    border: 1px solid white;
+    height: 30px;
+    width: 100px;
+    color: white;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  #scoreValue{
+    border: 1px solid white;
+    height: 50px;
+    width: 150px;
+    color: white;
+    display: flex;  
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+  }
